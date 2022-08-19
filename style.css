@@ -239,7 +239,7 @@ header {
   letter-spacing: 0.03em;
 }
 
-.left-block .action button {
+.left-block .action a {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -255,6 +255,13 @@ header {
   font-size: 17px;
   line-height: 24px;
   color: #396df2;
+  text-decoration: none;
+}
+
+.left-block .action a:hover {
+  cursor: pointer;
+  background-color: #4053fc;
+  color: #fff;
 }
 
 /* About Section */
@@ -314,9 +321,10 @@ header {
   display: flex;
 }
 
-.resume {
+.about-texts .about-links .resume a {
   width: 162px;
   height: 48px;
+  padding: 12px;
   background-color: #fff;
   border: 1px solid #6070ff;
   box-sizing: border-box;
@@ -327,6 +335,13 @@ header {
   line-height: 24px;
   color: #396df2;
   text-align: center;
+  text-decoration: none;
+}
+
+.about-texts .about-links .resume a:hover {
+  cursor: pointer;
+  background-color: #4053fc;
+  color: #fff;
 }
 
 .program {

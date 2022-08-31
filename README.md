@@ -37,6 +37,8 @@ To setup the project locally: click on "Code" (dropdown list) then "Download ZIP
 
 ## 🤝 Contributing
 
+Collaborat..https://github.com/MILINDI7
+
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).

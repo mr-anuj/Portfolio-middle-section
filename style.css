@@ -1,0 +1,552 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f8f9fa;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 36px 15px 24px;
+  box-sizing: border-box;
+  background-color: #fff;
+  z-index: 1;
+}
+
+#logo {
+  width: 76px;
+  height: 20px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: #6070ff;
+}
+
+#hamburger {
+  display: block;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #6070ff;
+}
+
+#nav-menu {
+  display: none;
+}
+
+#mobile-navbar {
+  background-color: transparent;
+}
+
+#mobile-navbar.active #mobile-nav-menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.mobile-nav-link a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.live-link,
+.source-link {
+  text-decoration: none;
+}
+
+.nav-link {
+  list-style-type: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: #344563;
+  padding-bottom: 5px;
+}
+
+.header {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #172b4d;
+  padding: 128px 24px 0;
+}
+
+/* Headline */
+
+#headline {
+  width: 375px;
+  height: 700px;
+  margin: 0 auto;
+  background: #fff url(./images/header-shapes-mobile.png) 0 45px no-repeat;
+  border-bottom-left-radius: 80px;
+}
+
+.portfolio-description {
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin: 12px 24px;
+}
+
+.lets-connect {
+  font-size: 16px;
+  font-weight: 500;
+  color: #7f8cff;
+  margin-left: 24px;
+  margin-bottom: 12px;
+}
+
+.social-media-links {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 24px;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+/* Works Styles */
+
+.works {
+  display: grid;
+  padding: 114px 24px;
+}
+
+.works .work {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  margin: 44px 0;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 12px;
+}
+
+.work ul {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.right-block {
+  width: 100%;
+  margin: 12px 0;
+}
+
+.right-block img {
+  width: 100%;
+}
+
+.left-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  width: 100%;
+  margin: 12px 0;
+}
+
+.work.left-block > img {
+  width: 80% !important;
+}
+
+.left-block ul li {
+  margin-right: 12px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.works .work-title {
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.work-stack {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.work-stack li:nth-child(1) {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.work-stack li.dot {
+  width: 8px;
+  height: 8px;
+  background: #c1c7d0;
+  border-radius: 30px;
+  margin: 0 10px 0 10px;
+}
+
+.tags {
+  margin: 12px 0;
+  padding-left: 0;
+}
+
+.tags .tag {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 4px 12px;
+  height: 24px;
+  background: #ebebff;
+  border-radius: 8px;
+  margin: 0 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  letter-spacing: 0.03em;
+}
+
+.left-block .action a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 124px;
+  height: 48px;
+  background: #fff;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  text-decoration: none;
+}
+
+.left-block .action a:hover {
+  cursor: pointer;
+  background-color: #4053fc;
+  color: #fff;
+}
+
+/* About Section */
+.about-myself {
+  padding: 114px 24px;
+  background: #fff;
+  border-radius: 0 100px 0 0;
+}
+
+.about-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-programs,
+.programs,
+.frameworks,
+.skills {
+  width: 100%;
+}
+
+.about-texts {
+  width: 100%;
+}
+
+.about-wrapper .about-texts {
+  width: 100%;
+}
+
+.about-wrapper .about-programs {
+  width: 100%;
+}
+
+.about-myself .about-title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin: 12px 0;
+}
+
+.about-myself p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.about-links .lets-connect {
+  margin: 0;
+}
+
+.about-links ul {
+  display: flex;
+}
+
+.about-texts .about-links .resume a {
+  width: 162px;
+  height: 48px;
+  padding: 12px;
+  background-color: #fff;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin: 12px 0;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  text-align: center;
+  text-decoration: none;
+}
+
+.about-texts .about-links .resume a:hover {
+  cursor: pointer;
+  background-color: #4053fc;
+  color: #fff;
+}
+
+.program {
+  display: flex;
+  justify-content: space-between;
+}
+
+.program h4 {
+  color: #000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.languages {
+  display: grid;
+  background: #fff;
+  padding-left: 0;
+}
+
+.languages .language {
+  display: flex;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin: 6px 0;
+  padding: 9px 12px;
+  margin-right: 12px;
+}
+
+.languages .language p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  margin: 16px 16px;
+}
+
+.framework,
+.skill {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+  border-bottom: 1px solid #dfe1e6;
+  margin: 12px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    width: 100vw;
+  }
+
+  header {
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    padding-top: 0;
+    padding-bottom: 5px;
+  }
+
+  #hamburger {
+    display: none;
+  }
+
+  #logo {
+    margin-left: 150px;
+  }
+
+  #nav-menu {
+    width: 285px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 164px;
+  }
+
+  #headline {
+    width: 100vw;
+    height: 916px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff url(./images/Header-bg.png) 100% 118px no-repeat;
+    background-size: contain;
+    border-bottom-left-radius: 150px;
+  }
+
+  #headline-content {
+    width: 63.8%;
+    margin-top: 238px;
+  }
+
+  #headline .header {
+    font-size: 48px;
+    line-height: 60px;
+    margin-top: 0;
+  }
+
+  .portfolio-description {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .lets-connect {
+    font-size: 16px;
+    margin-top: 40px;
+  }
+
+  .works {
+    display: grid;
+    padding: 114px, 24px;
+  }
+
+  .works .work {
+    width: 980px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 44px auto;
+    border: 1px solid #dfe1e6;
+    border-radius: 24px;
+    padding: 12px;
+  }
+
+  .works .work-title {
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    margin: 12 0;
+  }
+
+  .work ul {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  .right-block {
+    width: 544px;
+    border-radius: 8px;
+    padding: 12px;
+  }
+
+  .right-block img {
+    width: 100%;
+  }
+
+  .left-block {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
+    width: 544px;
+  }
+
+  /* About Styles */
+  .about-wrapper .about-programs {
+    width: 60%;
+    margin-left: 25px;
+  }
+
+  .about-myself {
+    height: 920px;
+    padding: 114px 12%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .about-wrapper {
+    flex-direction: row;
+  }
+
+  .about-wrapper .about-texts {
+    width: 40%;
+    margin: 24px 0;
+  }
+
+  .about-texts p {
+    margin-right: 25px;
+  }
+
+  .programs {
+    display: grid;
+    margin-top: -173px;
+  }
+
+  .languages {
+    width: 450px;
+    display: flex;
+  }
+
+  .language {
+    width: 122px;
+    height: 120px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .language img {
+    text-align: left;
+  }
+
+  .languages .language p {
+    margin: 16px 0;
+  }
+}

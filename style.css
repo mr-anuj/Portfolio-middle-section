@@ -532,6 +532,10 @@ header {
     padding: 114px, 24px;
   }
 
+  .works .flex-rev {
+    flex-direction: row-reverse !important;
+  }
+
   .works .work {
     width: 980px;
     display: flex;

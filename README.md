@@ -1,24 +1,24 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 
-# Portfolio
+# Microverse Portfolio Project
 
-> Portfolio project add contact form and finish the mobile version, collaborating with my partner. 
-
+> Portfolio project added desktop version.
 
 
 ## Built With
 
 - Html
-- CSS
- add-form
+- CSS with media query
 
 
 ## Getting Started
  To get a local copy up and running follow these simple example step.
+
 - Clone this repository or download the Zip folder:
 git clone https://github.com/mr-anuj/Portfolio-middle-section.git
 - Navigate to the location of the folder in your machine
+
 
 ### Prerequisites
 - Web browser (like Google Chrome, Opera...).
@@ -36,8 +36,6 @@ To setup the project locally: click on "Code" (dropdown list) then "Download ZIP
 
 
 ## 🤝 Contributing
-
-Collaborat..https://github.com/MILINDI7
 
 Contributions, issues, and feature requests are welcome!
 

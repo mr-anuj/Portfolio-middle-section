@@ -2,17 +2,13 @@
 
 # Microverse Portfolio Project
 
-> Portfolio project created using reference ([@Figma](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1)).
-
-![screenshot](1.png)
-![screenshot](2.png)
-![screenshot](3.png)
+> Portfolio project added desktop version.
 
 ## Built With
 
 - Html
-- CSS
-- GITHub
+- CSS with media query
+
 
 ## Getting Started
  To get a local copy up and running follow these simple example steps.

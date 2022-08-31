@@ -15,7 +15,7 @@
 
 
 ## Getting Started
- To get a local copy up and running follow these simple example steps.
+ To get a local copy up and running follow these simple example step.
 - Clone this repository or download the Zip folder:
 git clone https://github.com/mr-anuj/Portfolio-middle-section.git
 - Navigate to the location of the folder in your machine

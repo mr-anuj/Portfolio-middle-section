@@ -1,25 +1,24 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Microverse Portfolio Project
 
-> Portfolio project created using reference ([@Figma](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1)).
+# Portfolio
 
-![screenshot](1.png)
-![screenshot](2.png)
-![screenshot](3.png)
+> Portfolio project add contact form and finish the mobile version, collaborating with my partner. 
+
+
 
 ## Built With
 
 - Html
 - CSS
-- GITHub
+ add-form
+
 
 ## Getting Started
- To get a local copy up and running follow these simple example steps.
+ To get a local copy up and running follow these simple example step.
 - Clone this repository or download the Zip folder:
 git clone https://github.com/mr-anuj/Portfolio-middle-section.git
 - Navigate to the location of the folder in your machine
-
 
 ### Prerequisites
 - Web browser (like Google Chrome, Opera...).
@@ -37,6 +36,8 @@ To setup the project locally: click on "Code" (dropdown list) then "Download ZIP
 
 
 ## 🤝 Contributing
+
+Collaborat..https://github.com/MILINDI7
 
 Contributions, issues, and feature requests are welcome!
 

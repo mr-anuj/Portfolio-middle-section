@@ -3,7 +3,7 @@
 
 # Portfolio
 
-> Portfolio project add contact form and finish the mobile version, collaborating with my partner. 
+> Portfolio project added animation and transition, collaborating with my partner. 
 
 
 

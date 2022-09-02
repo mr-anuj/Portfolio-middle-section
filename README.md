@@ -1,24 +1,25 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 
+
 # Portfolio
 
 > Portfolio project added animation and transition, collaborating with my partner. 
-
 
 
 ## Built With
 
 - Html
 - CSS
- add-form
 
 
 ## Getting Started
  To get a local copy up and running follow these simple example step.
+
 - Clone this repository or download the Zip folder:
 git clone https://github.com/mr-anuj/Portfolio-middle-section.git
 - Navigate to the location of the folder in your machine
+
 
 ### Prerequisites
 - Web browser (like Google Chrome, Opera...).
@@ -36,6 +37,7 @@ To setup the project locally: click on "Code" (dropdown list) then "Download ZIP
 
 
 ## 🤝 Contributing
+
 
 Collaborat..https://github.com/MILINDI7
 

@@ -1,15 +1,16 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 
-# Microverse Portfolio Project
 
-> Portfolio project added desktop version.
+# Portfolio
+
+> Portfolio project added animation and transition, collaborating with my partner. 
 
 
 ## Built With
 
 - Html
-- CSS with media query
+- CSS
 
 
 ## Getting Started
@@ -36,6 +37,9 @@ To setup the project locally: click on "Code" (dropdown list) then "Download ZIP
 
 
 ## 🤝 Contributing
+
+
+Collaborat..https://github.com/MILINDI7
 
 Contributions, issues, and feature requests are welcome!
 

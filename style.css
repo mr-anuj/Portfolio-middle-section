@@ -33,6 +33,20 @@ header {
   color: #6070ff;
 }
 
+.rot {
+  animation: rotation 1s  linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 #hamburger {
   display: block;
   cursor: pointer;
@@ -129,6 +143,18 @@ header {
   list-style-type: none;
 }
 
+.right-block img {
+  width: 100%;
+}
+
+.social-media-link img {
+  transition: transform 0.5s;
+}
+
+.social-media-link img:hover {
+  transform: scale(1.5);
+}
+
 /* Works Styles */
 
 .works {
@@ -158,10 +184,6 @@ header {
 .right-block {
   width: 100%;
   margin: 12px 0;
-}
-
-.right-block img {
-  width: 100%;
 }
 
 .left-block {
@@ -256,6 +278,7 @@ header {
   line-height: 24px;
   color: #396df2;
   text-decoration: none;
+  transition: background-color 2s;
 }
 
 .left-block .action a:hover {
@@ -622,13 +645,9 @@ header {
     flex-direction: column;
   }
 
-  .language img {
-    text-align: left;
-  }
+  .language img { text-align: left; }
 
-  .languages .language p {
-    margin: 16px 0;
-  }
+  .languages .language p { margin: 16px 0; }
 
   /* contact section */
   .form-section {
@@ -638,12 +657,15 @@ header {
     border-top-left-radius: 150px;
   }
 
-  .contact-header {
-    margin-top: 142px;
-  }
+  .contact-header { margin-top: 142px; }
 
   .contact-description {
     width: 569px;
+    transition-duration: 0.2s;
+  }
+
+  .contact-description:hover {
+    transform: translate(35px);
   }
 
   #contact-form {
